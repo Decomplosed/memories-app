@@ -12,6 +12,8 @@ export const getPosts = async (req, res) => {
 export const createPost = (req, res) => {
   const post = req.body;
   const newPost = new PostMessage(post);
+
   try {
+    newPost.save();
   } catch (error) {}
 };
