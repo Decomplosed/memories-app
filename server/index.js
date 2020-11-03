@@ -6,6 +6,8 @@ import dotenv from 'dotenv';
 
 import postRoutes from './routes/posts.js';
 
+dotenv.config();
+
 const app = express();
 
 app.use('/posts', postRoutes);
