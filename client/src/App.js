@@ -14,7 +14,12 @@ const App = () => {
       </AppBar>
       <Grow in>
         <Container>
-          <Grid></Grid>
+          <Grid
+            container
+            justify='space-between'
+            alignItems='stretch'
+            spacing={3}
+          ></Grid>
         </Container>
       </Grow>
     </Container>
