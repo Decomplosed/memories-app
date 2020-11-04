@@ -12,7 +12,9 @@ const App = () => {
         </Typography>
         <img src={memories} alt='memories' height='50' />
       </AppBar>
-      <Grow in></Grow>
+      <Grow in>
+        <Container></Container>
+      </Grow>
     </Container>
   );
 };
