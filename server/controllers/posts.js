@@ -15,5 +15,6 @@ export const createPost = (req, res) => {
 
   try {
     newPost.save();
+    res.status(201).json(newPost);
   } catch (error) {}
 };
