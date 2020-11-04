@@ -13,7 +13,9 @@ const App = () => {
         <img src={memories} alt='memories' height='50' />
       </AppBar>
       <Grow in>
-        <Container></Container>
+        <Container>
+          <Grid></Grid>
+        </Container>
       </Grow>
     </Container>
   );
