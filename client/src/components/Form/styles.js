@@ -6,4 +6,7 @@ export default makeStyles((theme) => ({
       margin: theme.spacing(1),
     },
   },
+  paper: {
+    padding: theme.spacing(2),
+  },
 }));
