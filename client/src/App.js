@@ -14,7 +14,12 @@ const App = () => {
         <Typography variant='h2' align='center'>
           Memories
         </Typography>
-        <img src={memories} alt='memories' height='50' />
+        <img
+          className={classes.image}
+          src={memories}
+          alt='memories'
+          height='50'
+        />
       </AppBar>
       <Grow in>
         <Container>
