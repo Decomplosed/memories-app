@@ -7,6 +7,7 @@ import memories from './images/memories.png';
 import useStyles from './styles';
 
 const App = () => {
+  const classes = useStyles();
   return (
     <Container maxwidth='lg'>
       <AppBar position='static' color='inherit'>
