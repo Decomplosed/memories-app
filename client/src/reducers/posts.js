@@ -1,1 +1,1 @@
-const reducer = (state, action) => {};
+const reducer = (posts = [], action) => {};
