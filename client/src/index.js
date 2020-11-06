@@ -6,6 +6,6 @@ import thunk from 'redux-thunk';
 
 import App from './App';
 
-const store = createStore();
+const store = createStore(reducers, compose(applyMiddleware(thunk)));
 
 ReactDOM.render(<App />, document.getElementById('root'));
