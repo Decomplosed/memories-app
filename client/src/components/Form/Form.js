@@ -30,7 +30,9 @@ const Form = () => {
           label='Creator'
           fullWidth
           value={postData.creator}
-          onChange={}
+          onChange={(event) =>
+            setPostData({ ...postData, creator: event.target.value })
+          }
         />
       </form>
     </Paper>
