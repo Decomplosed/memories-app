@@ -15,7 +15,9 @@ const Form = () => {
         noValidate
         className={classes.form}
         onSubmit={handleSubmit}
-      ></form>
+      >
+        <Typography variant='h6'>Creating a Memory</Typography>
+      </form>
     </Paper>
   );
 };
