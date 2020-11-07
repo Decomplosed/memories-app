@@ -12,7 +12,9 @@ const App = () => {
   const classes = useStyles();
   const dispatch = useDispatch();
 
-  useEffect(() => {}, [])
+  useEffect(() => {
+    dispatch();
+  }, []);
 
   return (
     <Container maxwidth='lg'>
