@@ -6,6 +6,8 @@ import useStyles from './styles';
 const Form = () => {
   const classes = useStyles();
 
+  const handleSubmit = () => {};
+
   return (
     <Paper className={classes.paper}>
       <form
