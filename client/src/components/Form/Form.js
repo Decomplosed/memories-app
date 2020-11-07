@@ -17,6 +17,12 @@ const Form = () => {
         onSubmit={handleSubmit}
       >
         <Typography variant='h6'>Creating a Memory</Typography>
+        <TextField
+          name='creator'
+          variant='outlined'
+          label='Creator'
+          fullWidth
+        />
       </form>
     </Paper>
   );
