@@ -12,7 +12,12 @@ const Posts = () => {
   return !posts.length ? (
     <CircularProgress />
   ) : (
-    <Grid className={classes.container}></Grid>
+    <Grid
+      className={classes.container}
+      container
+      alignItems='stretch'
+      spacing={3}
+    ></Grid>
   );
 };
 
