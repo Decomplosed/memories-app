@@ -64,6 +64,7 @@ const Form = () => {
             setPostData({ ...postData, tags: event.target.value })
           }
         />
+        <div className={classes.fileInput}></div>
       </form>
     </Paper>
   );
