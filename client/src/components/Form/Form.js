@@ -34,6 +34,16 @@ const Form = () => {
             setPostData({ ...postData, creator: event.target.value })
           }
         />
+        <TextField
+          name='title'
+          variant='outlined'
+          label='Title'
+          fullWidth
+          value={postData.title}
+          onChange={(event) =>
+            setPostData({ ...postData, title: event.target.value })
+          }
+        />
       </form>
     </Paper>
   );
