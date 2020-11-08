@@ -98,6 +98,7 @@ const Form = () => {
           color='secondary'
           size='small'
           onClick={clear}
+          fullWidth
         >
           Clear
         </Button>
