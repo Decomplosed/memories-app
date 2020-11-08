@@ -18,7 +18,9 @@ const Posts = () => {
       alignItems='stretch'
       spacing={3}
     >
-      {posts.map(post => ())}
+      {posts.map((post) => (
+        <Grid item></Grid>
+      ))}
     </Grid>
   );
 };
