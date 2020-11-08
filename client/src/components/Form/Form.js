@@ -90,7 +90,7 @@ const Form = () => {
           size='small'
           onClick={clear}
         >
-          Cancel
+          Clear
         </Button>
       </form>
     </Paper>
