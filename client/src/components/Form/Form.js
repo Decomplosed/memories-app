@@ -84,6 +84,14 @@ const Form = () => {
         >
           Submit
         </Button>
+        <Button
+          variant='contained'
+          color='secondary'
+          size='small'
+          onClick={clear}
+        >
+          Cancel
+        </Button>
       </form>
     </Paper>
   );
