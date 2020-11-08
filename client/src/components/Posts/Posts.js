@@ -17,7 +17,9 @@ const Posts = () => {
       container
       alignItems='stretch'
       spacing={3}
-    ></Grid>
+    >
+      {posts.map(post => ())}
+    </Grid>
   );
 };
 
