@@ -66,7 +66,7 @@ const Form = () => {
           }
         />
         <div className={classes.fileInput}>
-          <FileBase />
+          <FileBase type='file' multiple={false} />
         </div>
       </form>
     </Paper>
