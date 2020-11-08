@@ -9,7 +9,11 @@ const Posts = () => {
   const posts = useSelector((state) => state.posts);
   const classes = useStyles();
 
-  return !posts.length ? <CircularProgress /> : <Grid></Grid>;
+  return !posts.length ? (
+    <CircularProgress />
+  ) : (
+    <Grid className={classes.container}></Grid>
+  );
 };
 
 export default Posts;
