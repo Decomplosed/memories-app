@@ -16,6 +16,8 @@ const Form = () => {
 
   const handleSubmit = () => {};
 
+  const clear = () => {};
+
   return (
     <Paper className={classes.paper}>
       <form
