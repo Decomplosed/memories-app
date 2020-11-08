@@ -23,7 +23,7 @@ const Form = () => {
       <form
         autoComplete='off'
         noValidate
-        className={classes.form}
+        className={`${classes.form} ${classes.root}`}
         onSubmit={handleSubmit}
       >
         <Typography variant='h6'>Creating a Memory</Typography>
