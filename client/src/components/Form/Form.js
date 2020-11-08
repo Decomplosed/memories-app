@@ -54,6 +54,16 @@ const Form = () => {
             setPostData({ ...postData, message: event.target.value })
           }
         />
+        <TextField
+          name='tags'
+          variant='outlined'
+          label='Tags'
+          fullWidth
+          value={postData.tags}
+          onChange={(event) =>
+            setPostData({ ...postData, tags: event.target.value })
+          }
+        />
       </form>
     </Paper>
   );
