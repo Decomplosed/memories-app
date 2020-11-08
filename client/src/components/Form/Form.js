@@ -81,7 +81,9 @@ const Form = () => {
           size='large'
           type='submit'
           fullWidth
-        ></Button>
+        >
+          Submit
+        </Button>
       </form>
     </Paper>
   );
