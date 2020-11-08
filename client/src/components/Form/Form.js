@@ -14,6 +14,7 @@ const Form = () => {
     selectedFile: '',
   });
   const classes = useStyles();
+  const dispatch = useDispatch();
 
   const handleSubmit = () => {};
 
