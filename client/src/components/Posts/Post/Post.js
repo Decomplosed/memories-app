@@ -24,7 +24,7 @@ const Post = ({ post }) => {
         title={post.title}
       />
       <div className={classes.overlay}>
-        <Typography></Typography>
+        <Typography variant='h6'></Typography>
       </div>
     </Card>
   );
