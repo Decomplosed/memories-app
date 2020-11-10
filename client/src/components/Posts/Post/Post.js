@@ -13,7 +13,7 @@ import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 
 import useStyles from './styles';
 
-const Post = () => {
+const Post = ({ post }) => {
   const classes = useStyles();
 
   return (
