@@ -23,7 +23,9 @@ const Post = ({ post }) => {
         image={post.selectedFile}
         title={post.title}
       />
-      <div className={classes.overlay}></div>
+      <div className={classes.overlay}>
+        <Typography></Typography>
+      </div>
     </Card>
   );
 };
