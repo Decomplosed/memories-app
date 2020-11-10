@@ -18,7 +18,11 @@ const Post = () => {
 
   return (
     <Card className={classes.card}>
-      <CardMedia className={classes.media} image={post.selectedFile} />
+      <CardMedia
+        className={classes.media}
+        image={post.selectedFile}
+        title={post.title}
+      />
     </Card>
   );
 };
