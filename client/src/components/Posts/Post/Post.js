@@ -25,7 +25,7 @@ const Post = ({ post }) => {
       />
       <div className={classes.overlay}>
         <Typography variant='h6'>{post.creator}</Typography>
-        <Typography></Typography>
+        <Typography variant='body2'></Typography>
       </div>
     </Card>
   );
