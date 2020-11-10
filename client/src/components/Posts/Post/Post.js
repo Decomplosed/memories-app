@@ -36,7 +36,7 @@ const Post = ({ post }) => {
         </Button>
       </div>
       <div className={classes.details}>
-        <Typography variant='body2'></Typography>
+        <Typography variant='body2' color='textSecondary'></Typography>
       </div>
     </Card>
   );
