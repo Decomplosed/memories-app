@@ -16,7 +16,7 @@ import useStyles from './styles';
 const Post = () => {
   const classes = useStyles();
 
-  return (<Card></Card>);
+  return <Card className={classes.card}></Card>;
 };
 
 export default Post;
