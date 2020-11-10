@@ -35,6 +35,7 @@ const Post = ({ post }) => {
           <MoreHorizIcon fontSize='default' />
         </Button>
       </div>
+      <div className={classes.details}></div>
     </Card>
   );
 };
