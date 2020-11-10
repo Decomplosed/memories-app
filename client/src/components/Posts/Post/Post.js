@@ -18,7 +18,7 @@ const Post = () => {
 
   return (
     <Card className={classes.card}>
-      <CardMedia className={classes.media} />
+      <CardMedia className={classes.media} image={post.selectedFile} />
     </Card>
   );
 };
