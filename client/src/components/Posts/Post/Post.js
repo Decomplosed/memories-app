@@ -31,7 +31,7 @@ const Post = ({ post }) => {
         </Typography>
       </div>
       <div className={classes.overlay2}>
-        <Button></Button>
+        <Button style={{ color: 'white' }}></Button>
       </div>
     </Card>
   );
