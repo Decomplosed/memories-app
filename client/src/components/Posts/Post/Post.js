@@ -7,6 +7,7 @@ import {
   Button,
   Typography,
 } from '@material-ui/core';
+import ThumbUpAltIcon from '@material-ui/icons/ThumbUpAltIcon';
 
 import useStyles from './styles';
 
