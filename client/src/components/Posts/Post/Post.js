@@ -23,6 +23,7 @@ const Post = ({ post }) => {
         image={post.selectedFile}
         title={post.title}
       />
+      <div className={classes.overlay}></div>
     </Card>
   );
 };
