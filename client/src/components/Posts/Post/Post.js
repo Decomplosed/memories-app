@@ -8,6 +8,7 @@ import {
   Typography,
 } from '@material-ui/core';
 import ThumbUpAltIcon from '@material-ui/icons/ThumbUpAltIcon';
+import DeleteIcon from '@material-ui/icons/DeleteIcon';
 
 import useStyles from './styles';
 
