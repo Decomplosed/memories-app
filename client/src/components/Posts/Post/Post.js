@@ -45,7 +45,9 @@ const Post = ({ post }) => {
           {post.message}
         </Typography>
       </CardContent>
-      <CardActions></CardActions>
+      <CardActions>
+        <Button></Button>
+      </CardActions>
     </Card>
   );
 };
