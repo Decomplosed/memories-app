@@ -51,7 +51,9 @@ const Post = ({ post }) => {
           Like
           {post.likeCount}
         </Button>
-        <Button></Button>
+        <Button size='small' color='primary' onClick={() => {}}>
+          Delete
+        </Button>
       </CardActions>
     </Card>
   );
