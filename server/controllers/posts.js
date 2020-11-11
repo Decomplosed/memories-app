@@ -21,4 +21,6 @@ export const createPost = async (req, res) => {
   }
 };
 
-export const updatePost = (req, res) => {}
+export const updatePost = (req, res) => {
+  const { id } = req.params;
+};
