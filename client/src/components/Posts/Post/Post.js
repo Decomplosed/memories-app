@@ -47,7 +47,7 @@ const Post = ({ post }) => {
       </CardContent>
       <CardActions>
         <Button size='small' color='primary' onClick={() => {}}>
-          <ThumbUpAltIcon />
+          <ThumbUpAltIcon fontSize='small' />
         </Button>
       </CardActions>
     </Card>
