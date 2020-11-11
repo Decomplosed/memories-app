@@ -48,6 +48,8 @@ const Post = ({ post }) => {
       <CardActions>
         <Button size='small' color='primary' onClick={() => {}}>
           <ThumbUpAltIcon fontSize='small' />
+          Like
+          {post.likeCount}
         </Button>
       </CardActions>
     </Card>
