@@ -46,7 +46,7 @@ const Post = ({ post }) => {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button></Button>
+        <Button size='small' color='primary' onClick={() => {}}></Button>
       </CardActions>
     </Card>
   );
