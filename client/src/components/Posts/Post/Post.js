@@ -45,6 +45,7 @@ const Post = ({ post }) => {
           {post.message}
         </Typography>
       </CardContent>
+      <CardActions></CardActions>
     </Card>
   );
 };
