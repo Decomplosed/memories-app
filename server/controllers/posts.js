@@ -22,7 +22,7 @@ export const createPost = async (req, res) => {
   }
 };
 
-export const updatePost = (req, res) => {
+export const updatePost = async (req, res) => {
   const { id: _id } = req.params;
   const post = req.body;
 
