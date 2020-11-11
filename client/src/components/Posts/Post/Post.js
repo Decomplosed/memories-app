@@ -46,7 +46,9 @@ const Post = ({ post }) => {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size='small' color='primary' onClick={() => {}}></Button>
+        <Button size='small' color='primary' onClick={() => {}}>
+          <ThumbUpAltIcon />
+        </Button>
       </CardActions>
     </Card>
   );
