@@ -51,6 +51,7 @@ const Post = ({ post }) => {
           Like
           {post.likeCount}
         </Button>
+        <Button></Button>
       </CardActions>
     </Card>
   );
