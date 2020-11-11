@@ -52,6 +52,7 @@ const Post = ({ post }) => {
           {post.likeCount}
         </Button>
         <Button size='small' color='primary' onClick={() => {}}>
+          <DeleteIcon fontSize='small' />
           Delete
         </Button>
       </CardActions>
