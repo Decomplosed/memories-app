@@ -40,7 +40,7 @@ const Post = ({ post }) => {
           {post.tags.map((tag) => `#${tag}`)}
         </Typography>
       </div>
-      <Typography></Typography>
+      <Typography className={classes.title}></Typography>
     </Card>
   );
 };
