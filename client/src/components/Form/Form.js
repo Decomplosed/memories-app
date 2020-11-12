@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { TextField, Button, Typography, Paper } from '@material-ui/core';
 import FileBase from 'react-file-base64';
 import { useDispatch } from 'react-redux';
+import { useSelector } from 'react-redux';
 
 import useStyles from './styles';
 import { createPost, updatePost } from '../../actions/posts';
