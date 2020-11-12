@@ -31,7 +31,7 @@ const Post = ({ post, setCurrentId }) => {
         </Typography>
       </div>
       <div className={classes.overlay2}>
-        <Button style={{ color: 'white' }} size='small' onClick={() => {}}>
+        <Button style={{ color: 'white' }} size='small' onClick={() => setCurrentId(post._id)>
           <MoreHorizIcon fontSize='default' />
         </Button>
       </div>
