@@ -21,6 +21,8 @@ const Form = ({ currentId, setCurrentId }) => {
   const classes = useStyles();
   const dispatch = useDispatch();
 
+  useEffect(() => {}, []);
+
   const handleSubmit = (event) => {
     event.preventDefault();
 
