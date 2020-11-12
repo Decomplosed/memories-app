@@ -19,4 +19,10 @@ export const createPost = (post) => async (dispatch) => {
   }
 };
 
-export const updatePost = (id, post) => async (dispatch) => {};
+export const updatePost = (id, post) => async (dispatch) => {
+  try {
+    
+  } catch (error) {
+
+  }
+};
