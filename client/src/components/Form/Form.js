@@ -35,7 +35,9 @@ const Form = ({ currentId, setCurrentId }) => {
     }
   };
 
-  const clear = () => {};
+  const clear = () => {
+    setCurrentId(null);
+  };
 
   return (
     <Paper className={classes.paper}>
