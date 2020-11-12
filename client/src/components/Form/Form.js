@@ -15,7 +15,7 @@ const Form = ({ currentId, setCurrentId }) => {
     tags: '',
     selectedFile: '',
   });
-  const posts = useSelector((state) => state.posts);
+  const posts = useSelector((state) => currentId ? state.posts.find() : ());
   const classes = useStyles();
   const dispatch = useDispatch();
 
