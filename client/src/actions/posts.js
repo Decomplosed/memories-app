@@ -29,4 +29,4 @@ export const updatePost = (id, post) => async (dispatch) => {
   }
 };
 
-export const deletePost = () => {}
+export const deletePost = (id) => {}
