@@ -50,3 +50,5 @@ export const deletePost = async (req, res) => {
 
   res.json({ message: 'Post deleted successfully' });
 };
+
+export const likePost = () => {}
