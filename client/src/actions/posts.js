@@ -28,3 +28,5 @@ export const updatePost = (id, post) => async (dispatch) => {
     console.log(error);
   }
 };
+
+export const deletePost = () => {}
