@@ -55,7 +55,7 @@ const Post = ({ post, setCurrentId }) => {
           {post.message}
         </Typography>
       </CardContent>
-      <CardActions>
+      <CardActions className={classes.cardActions}>
         <Button
           size='small'
           color='primary'
