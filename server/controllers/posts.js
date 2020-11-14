@@ -65,4 +65,6 @@ export const likePost = async (req, res) => {
     },
     { new: true },
   );
+
+  res.json(updatedPost);
 };
