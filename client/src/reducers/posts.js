@@ -1,3 +1,11 @@
+import {
+  CREATE,
+  UPDATE,
+  DELETE,
+  LIKE,
+  FETCH_ALL,
+} from '../constants/actionTypes';
+
 /* eslint-disable import/no-anonymous-default-export */
 export default (posts = [], action) => {
   switch (action.type) {
