@@ -39,4 +39,7 @@ export const deletePost = (id) => async (dispatch) => {
   }
 };
 
-export const likePost = (id) => async (dispatch) => {};
+export const likePost = (id) => async (dispatch) => {
+  try {
+  } catch (error) {}
+};
